@@ -24,6 +24,7 @@ public class DemoAdapter extends RecyclerView.Adapter<DemoAdapter.ViewHolder> {
          this.list=list;
         layoutInflater=LayoutInflater.from(context);
     }
+    
     @Override
     public DemoAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view=layoutInflater.inflate(R.layout.demo,parent,false);
